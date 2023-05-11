@@ -1,4 +1,4 @@
-# CMSC701_HW2
+# CMSC701_HW3
 
 This project was written in the C++ programming language. The project is found at: https://github.com/stang10/CMSC701_HW3.
 

@@ -603,3 +603,45 @@ Linking CXX executable cmTC_5ed6a
 
 
 
+Performing C++ SOURCE FILE Test HAVE_CLANG_STD=C__11__DNDEBUG succeeded with the following output:
+Change Dir: /Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-il7IGR
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_fc984/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_fc984.dir/build.make CMakeFiles/cmTC_fc984.dir/build
+Building CXX object CMakeFiles/cmTC_fc984.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STD=C__11__DNDEBUG  -std=c++11 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -MD -MT CMakeFiles/cmTC_fc984.dir/src.cxx.o -MF CMakeFiles/cmTC_fc984.dir/src.cxx.o.d -o CMakeFiles/cmTC_fc984.dir/src.cxx.o -c "/Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-il7IGR/src.cxx"
+Linking CXX executable cmTC_fc984
+/usr/local/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fc984.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_fc984.dir/src.cxx.o -o cmTC_fc984 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_STDLIB=LIBC__ succeeded with the following output:
+Change Dir: /Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-hT4Dkg
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_3a8f5/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_3a8f5.dir/build.make CMakeFiles/cmTC_3a8f5.dir/build
+Building CXX object CMakeFiles/cmTC_3a8f5.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_STDLIB=LIBC__  -std=c++11 -DNDEBUG -stdlib=libc++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -MD -MT CMakeFiles/cmTC_3a8f5.dir/src.cxx.o -MF CMakeFiles/cmTC_3a8f5.dir/src.cxx.o.d -o CMakeFiles/cmTC_3a8f5.dir/src.cxx.o -c "/Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-hT4Dkg/src.cxx"
+Linking CXX executable cmTC_3a8f5
+/usr/local/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3a8f5.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_3a8f5.dir/src.cxx.o -o cmTC_3a8f5 
+
+
+Source file was:
+int main() { return 0; }
+
+Performing C++ SOURCE FILE Test HAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE="EXTERN___ALWAYS_INLINE"_ succeeded with the following output:
+Change Dir: /Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-9VxdwE
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_a25b9/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_a25b9.dir/build.make CMakeFiles/cmTC_a25b9.dir/build
+Building CXX object CMakeFiles/cmTC_a25b9.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CLANG_O3__FFAST_MATH__FUNROLL_LOOPS__D__EXTERN_ALWAYS_INLINE=\"EXTERN___ALWAYS_INLINE\"_  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -MD -MT CMakeFiles/cmTC_a25b9.dir/src.cxx.o -MF CMakeFiles/cmTC_a25b9.dir/src.cxx.o.d -o CMakeFiles/cmTC_a25b9.dir/src.cxx.o -c "/Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-9VxdwE/src.cxx"
+Linking CXX executable cmTC_a25b9
+/usr/local/Cellar/cmake/3.25.0/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a25b9.dir/link.txt --verbose=1
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  -std=c++11 -DNDEBUG -stdlib=libc++ -O3 -ffast-math -funroll-loops -D__extern_always_inline="extern __always_inline" -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/cmTC_a25b9.dir/src.cxx.o -o cmTC_a25b9 
+
+
+Source file was:
+int main() { return 0; }
+

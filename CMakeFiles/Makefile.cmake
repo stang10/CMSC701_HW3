@@ -337,7 +337,7 @@ set(CMAKE_MAKEFILE_PRODUCTS
 
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
-  "CMakeFiles/test.dir/DependInfo.cmake"
+  "CMakeFiles/main.dir/DependInfo.cmake"
   "sdsl-lite/CMakeFiles/uninstall-sdsl.dir/DependInfo.cmake"
   "sdsl-lite/external/libdivsufsort/CMakeFiles/uninstall.dir/DependInfo.cmake"
   "sdsl-lite/external/libdivsufsort/lib/CMakeFiles/divsufsort.dir/DependInfo.cmake"
