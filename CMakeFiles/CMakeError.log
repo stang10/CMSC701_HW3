@@ -1,0 +1,60 @@
+Performing C++ SOURCE FILE Test HAVE_CXA_DEMANGLE failed with the following output:
+Change Dir: /Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-v6lQam
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_37a2b/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_37a2b.dir/build.make CMakeFiles/cmTC_37a2b.dir/build
+Building CXX object CMakeFiles/cmTC_37a2b.dir/src.cxx.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++ -DHAVE_CXA_DEMANGLE  -std=c++11 -DNDEBUG -stdlib=libc++  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -MD -MT CMakeFiles/cmTC_37a2b.dir/src.cxx.o -MF CMakeFiles/cmTC_37a2b.dir/src.cxx.o.d -o CMakeFiles/cmTC_37a2b.dir/src.cxx.o -c "/Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-v6lQam/src.cxx"
+/Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-v6lQam/src.cxx:4:37: error: member access into incomplete type 'const std::type_info'
+    const char *foo = typeid(foobar).name();
+                                    ^
+/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk/usr/include/c++/v1/cxxabi.h:32:7: note: forward declaration of 'std::type_info'
+class type_info; // forward declaration
+      ^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_37a2b.dir/src.cxx.o] Error 1
+make: *** [cmTC_37a2b/fast] Error 2
+
+
+Source file was:
+#include <cxxabi.h>
+int main(void){
+    int foobar = 0;
+    const char *foo = typeid(foobar).name();
+    int status;
+    char *demangled = abi::__cxa_demangle( foo, 0, 0, &status );
+}
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC_DLLEXPORT_ failed with the following output:
+Change Dir: /Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-4omgYc
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_c99da/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_c99da.dir/build.make CMakeFiles/cmTC_c99da.dir/build
+Building C object CMakeFiles/cmTC_c99da.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE___DECLSPEC_DLLEXPORT_  -Wall  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -MD -MT CMakeFiles/cmTC_c99da.dir/src.c.o -MF CMakeFiles/cmTC_c99da.dir/src.c.o.d -o CMakeFiles/cmTC_c99da.dir/src.c.o -c "/Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-4omgYc/src.c"
+/Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-4omgYc/src.c:1:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(dllexport) void func(); void func() { } int main() { func(); return 0; }
+^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_c99da.dir/src.c.o] Error 1
+make: *** [cmTC_c99da/fast] Error 2
+
+
+Source file was:
+__declspec(dllexport) void func(); void func() { } int main() { func(); return 0; }
+
+Performing C SOURCE FILE Test HAVE___DECLSPEC_DLLIMPORT_ failed with the following output:
+Change Dir: /Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-O2PtUe
+
+Run Build Command(s):/usr/bin/make -f Makefile cmTC_715f0/fast && /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_715f0.dir/build.make CMakeFiles/cmTC_715f0.dir/build
+Building C object CMakeFiles/cmTC_715f0.dir/src.c.o
+/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/cc -DHAVE___DECLSPEC_DLLIMPORT_  -Wall  -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX13.1.sdk -MD -MT CMakeFiles/cmTC_715f0.dir/src.c.o -MF CMakeFiles/cmTC_715f0.dir/src.c.o.d -o CMakeFiles/cmTC_715f0.dir/src.c.o -c "/Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-O2PtUe/src.c"
+/Users/samanthatang/Documents/UMD/Grad_School/Spring_2023/701/Samantha Tang HW3/CMakeFiles/CMakeScratch/TryCompile-O2PtUe/src.c:1:1: error: '__declspec' attributes are not enabled; use '-fdeclspec' or '-fms-extensions' to enable support for __declspec attributes
+__declspec(dllimport) void func(); void func() { } int main() { func(); return 0; }
+^
+1 error generated.
+make[1]: *** [CMakeFiles/cmTC_715f0.dir/src.c.o] Error 1
+make: *** [cmTC_715f0/fast] Error 2
+
+
+Source file was:
+__declspec(dllimport) void func(); void func() { } int main() { func(); return 0; }
+
